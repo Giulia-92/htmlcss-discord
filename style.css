@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-size: 20px;
+    color: #23272a;
+}
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: rgba(49,97,224.255);
+}
+.clearfix::after{
+    content: '';
+    display: tablet;
+    clear: both;
+
+}
+.btn{
+    display: inline-block;
+}
+nav .logo, nav ul{
+    float: left;
+    
+}
+nav .logo img {
+    vertical-align: middle;
+}
+nav .logo{
+    width: 15%;
+}
+nav ul{
+    text-align: center;
+    width: 70%;
+    
+}
+#jambotron{
+    min-height: 546px;
+    background-size: cover;
+}
+#jambotron .container{
+    text-align: center;
+    color: white;
+
+}
+ ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+#accedi{
+    float: right;
+}
